@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
 
-[Pomodoro](pomodoro/)
-[Tasks](tasks/)
+- [Pomodoro](pomodoro/)
+
+- [Tasks](tasks/)
