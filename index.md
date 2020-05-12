@@ -2,6 +2,4 @@
 
 - [Pomodoro](pomodoro/)
 
-- [Tasks](tasks/)
-
-- [Game](game/)
+- [Darts](darts/)
