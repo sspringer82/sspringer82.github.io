@@ -1,31 +1,31 @@
 class Board {
-  static ring = 8;
-  static doubleBull = 12.7;
-  static bull = 31.8;
-  static double = 170;
-  static tripple = 107;
-  static fields = [
-    20,
-    1,
-    18,
-    4,
-    13,
-    6,
-    10,
-    15,
-    2,
-    17,
-    3,
-    19,
-    7,
-    16,
-    8,
-    11,
-    14,
-    9,
-    12,
-    5,
-  ];
+  // static ring = 8;
+  // static doubleBull = 12.7;
+  // static bull = 31.8;
+  // static double = 170;
+  // static tripple = 107;
+  // static fields = [
+  //   20,
+  //   1,
+  //   18,
+  //   4,
+  //   13,
+  //   6,
+  //   10,
+  //   15,
+  //   2,
+  //   17,
+  //   3,
+  //   19,
+  //   7,
+  //   16,
+  //   8,
+  //   11,
+  //   14,
+  //   9,
+  //   12,
+  //   5,
+  // ];
 
   constructor(scale, canvas) {
     this.scale = scale;
@@ -154,3 +154,31 @@ class Board {
     this.circle(Board.doubleBull, 'red');
   }
 }
+
+Board.ring = 8;
+Board.doubleBull = 12.7;
+Board.bull = 31.8;
+Board.double = 170;
+Board.tripple = 107;
+Board.fields = [
+  20,
+  1,
+  18,
+  4,
+  13,
+  6,
+  10,
+  15,
+  2,
+  17,
+  3,
+  19,
+  7,
+  16,
+  8,
+  11,
+  14,
+  9,
+  12,
+  5,
+];

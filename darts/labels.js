@@ -1,5 +1,5 @@
 class Label {
-  static offset = 25;
+  // static offset = 25;
 
   constructor(ctx, center, text, angle, radius) {
     this.ctx = ctx;
@@ -39,3 +39,5 @@ class Label {
     this.ctx.fillText(this.text, x, y);
   }
 }
+
+Label.offset = 25;
