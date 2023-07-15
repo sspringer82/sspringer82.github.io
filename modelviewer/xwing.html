@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+
+    <!-- Use it like any other HTML element -->
+    <model-viewer
+      src="./xwing.glb"
+      alt="xwing"
+      auto-rotate
+      camera-controls
+      style="width: 800px; height: 600px"
+    ></model-viewer>
+    <div style="position: absolute; bottom: 10px; right: 10px">V0.0.2</div>
+  </body>
+</html>
