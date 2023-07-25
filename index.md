@@ -5,3 +5,5 @@
 - [Darts](darts/)
 
 - [Modelviewer](modelviewer/)
+  
+- [Weekly Blender Challenge](portfolio/)
